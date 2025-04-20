@@ -1,0 +1,25 @@
+# Fichiers sensibles
+.env
+
+# Environnement virtuel
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers lourds à exclure
+*.wav
+*.mp4
+*.zip
+*.exe
+*.pt
+*.bin
+*.tar.gz
+
+# Fichiers VS Code
+.vscode/
