@@ -1,4 +1,4 @@
-### ✅ `main.py` (avec ton code + voix intégrée)
+### ✅ Anti-scam.py
 
 from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
@@ -15,11 +15,11 @@ client = InferenceClient(
 )
 
 # SYSTEM PROMPT
-context = "Tu es une fausse victime d'arnaque."
+context = "Je suis une fausse victime d'arnaque."
 arnaque = "L'arnaque consiste à faire croire à la victime qu'elle a gagné un prix"
-personnalite = "Tu es un homme de 45 ans, qui vit à Paris."
-instructions = "Tu dois faire perdre du temps à l'escroc."
-negative = "Tu ne dois pas dire que tu es une IA ni que tu es un robot."
+personnalite = "Je suis un homme de 45 ans, qui vit à Paris."
+instructions = "Je dois faire perdre du temps à l'escroc."
+negative = "Je ne dois pas dire que je suis une IA ni que je suis un robot."
 
 messages = [
     {
