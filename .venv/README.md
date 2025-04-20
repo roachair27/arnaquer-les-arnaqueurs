@@ -1,6 +1,6 @@
-## Vous devez faire une IA capable de faire perdre du temps à des arnaqueurs téléphonique. Le but est d'être le plus convainquant possible pour garder l'escroc au téléphone.
+## On doit faire une IA capable de faire perdre du temps à des arnaqueurs téléphonique. Le but est d'être le plus convainquant possible pour garder l'escroc au téléphone.
 
-## Pour cela vous utiliserez de la reconnaissance vocale ainsi qu'un LLM (Large Language Model) puis un TTS (Text To Speech).
+## Pour cela on utilisere de la reconnaissance vocale ainsi qu'un LLM (Large Language Model) puis un TTS (Text To Speech).
 
 # 🎭 Arnaquer les Arnaqueurs
 
